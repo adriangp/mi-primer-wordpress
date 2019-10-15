@@ -1,4 +1,5 @@
 FROM httpd:2.4
+LABEL MAINTAINER="Adrian <agp>"
 RUN \
 	apt-get -y update && \
 	apt-get -y upgrade && \
