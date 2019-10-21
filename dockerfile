@@ -1,5 +1,5 @@
 FROM httpd:2.4
-LABEL MAINTAINER="Adrian <agp>"
+LABEL MAINTAINER="Adrian GP <adriangp@github.com>"
 RUN \
 	apt-get -y update && \
 	apt-get -y upgrade && \
